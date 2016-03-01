@@ -14,9 +14,7 @@
 var author_list_Khaki=[
         'Nick1','Nick2'
 ];
-var author_list_DarkSeaGreen=[
-        'Nick3','Nick4'
-];
+
 
 setInterval(function(){
     $.each(author_list_khaki,function(i,v){
@@ -26,11 +24,5 @@ setInterval(function(){
         }
       });
     });
-    $.each(author_list_DarkSeaGreen,function(i,v){
-      jQuery(".im_history_messages_peer .im_message_author:contains('"+v+"')").closest('.im_message_outer_wrap').each(function(){
-        if(!$(this).is('.DarkSeaGreen')) {
-           $(this).addClass('DarkSeaGreen').css('background-color','DarkSeaGreen')
-        }
-      });
-    });
+
 },1000);
