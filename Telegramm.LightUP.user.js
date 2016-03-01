@@ -12,7 +12,7 @@
 
 // Your code here...
 var author_list_khaki=[
-        'MakcEXPLO Е14 Мsk [RU]'
+        'Nick1','Nick2'
 ];
 setInterval(function(){
     $.each(author_list_khaki,function(i,v){
