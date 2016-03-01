@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Telegramm LightUP
 // @namespace    http://dartfox.ru
-// @version      a0.1.2001603012040
+// @version      alfa 0.1.2001603012040
 // @description  Light telegram messages from custom user
 // @author       Dartfox
 // @match        https://web.telegram.org/
