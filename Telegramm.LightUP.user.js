@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Telegramm LightUP
 // @namespace    http://dartfox.ru
-// @version      alfa 0.1.2001603012040
+// @version      alfa 0.1.2001603012050
 // @description  Light telegram messages from custom user
 // @author       Dartfox
 // @match        https://web.telegram.org/
@@ -17,7 +17,7 @@ var author_list_Khaki=[
 
 
 setInterval(function(){
-    $.each(author_list_khaki,function(i,v){
+    $.each(author_list_Khaki,function(i,v){
       jQuery(".im_history_messages_peer .im_message_author:contains('"+v+"')").closest('.im_message_outer_wrap').each(function(){
         if(!$(this).is('.khaki')) {
            $(this).addClass('khaki').css('background-color','khaki')
